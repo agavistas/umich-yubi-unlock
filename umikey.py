@@ -20,5 +20,5 @@ try:
     print("Access code removed. Enjoy!")
     exit()
 except:
-    print("Access code was not serial number, this is not a UMich YubiKey!")
+    print("Access code was not serial number, this is not a UMich YubiKey!\n(Who else would make this kind of mistake?)")
     exit()
